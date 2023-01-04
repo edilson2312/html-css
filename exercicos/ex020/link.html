@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+        */
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+        }
+        a:visited {
+            color: darkblue;
+        }
+        a:active{
+        color: brown;
+        }
+        a:hover {
+        text-decoration: underline;
+        color: black;
+        }
+        a::after{
+        content: '[Link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100013811082106" target="_blank">Perfil do facebook</a></li>
+        <li><a href="https://www.youtube.com/channel/UCl-e2dUuEF-sxcGZHKr8AtA" target="_blank" id="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.instagram.com/eusouedilson/" target="_blank">Perfil do Instagran</a></li>
+    </ul>
+    
+</body>
+</html>
